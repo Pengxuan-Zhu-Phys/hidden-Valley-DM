@@ -1,0 +1,7 @@
+# file to improve default parameters
+gVXd           0.05          
+MXd            100                                                                     
+MY1            2        |Mass of Y1.                                                               |
+gVl11          0.5          |e-Y1 vector coupling                                                      |
+gVl22          0.5          |mu-Y1 vector coupling                                                     |
+gVl33          0.5          |tau-Y1 vector coupling                                                    |

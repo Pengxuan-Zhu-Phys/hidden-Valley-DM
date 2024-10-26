@@ -1,0 +1,271 @@
+{
+	"cdm_nucleon_amplitudes" : 
+	[
+		{
+			"name" : "~xd",
+			"neutron" : 
+			{
+				"SD" : 
+				[
+					0.0,
+					0.0
+				],
+				"SI" : 
+				[
+					0.0,
+					0.0
+				]
+			},
+			"proton" : 
+			{
+				"SD" : 
+				[
+					0.0,
+					0.0
+				],
+				"SI" : 
+				[
+					0.0,
+					0.0
+				]
+			}
+		}
+	],
+	"dark_matter_candidates" : 
+	[
+		{
+			"electric_charge" : "0",
+			"is_color_particle" : false,
+			"mass [GeV]" : 100.0,
+			"name" : "~xd",
+			"spin" : "1/2"
+		}
+	],
+	"decays" : 
+	{
+		"H" : 
+		{
+			"branchings" : 
+			[
+				{
+					"mode" : "H -> e-,e+",
+					"value" : 3.5410979999999999e-09
+				},
+				{
+					"mode" : "H -> mu-,mu+",
+					"value" : 0.00015139640000000001
+				},
+				{
+					"mode" : "H -> ta-,ta+",
+					"value" : 0.04277048
+				},
+				{
+					"mode" : "H -> u,u~",
+					"value" : 2.6454320000000003e-07
+				},
+				{
+					"mode" : "H -> c,c~",
+					"value" : 0.065577640000000006
+				},
+				{
+					"mode" : "H -> d,d~",
+					"value" : 1.0334210000000001e-06
+				},
+				{
+					"mode" : "H -> s,s~",
+					"value" : 0.00041500359999999999
+				},
+				{
+					"mode" : "H -> b,b~",
+					"value" : 0.89108419999999999
+				}
+			],
+			"width [GeV]" : 0.0060495817337073415
+		},
+		"W+" : 
+		{
+			"branchings" : 
+			[
+				{
+					"mode" : "W+ -> ve,e+",
+					"value" : 0.11114250000000001
+				},
+				{
+					"mode" : "W+ -> vm,mu+",
+					"value" : 0.1111422
+				},
+				{
+					"mode" : "W+ -> vt,ta+",
+					"value" : 0.1110324
+				},
+				{
+					"mode" : "W+ -> u,d~",
+					"value" : 0.31642979999999998
+				},
+				{
+					"mode" : "W+ -> c,d~",
+					"value" : 0.016987229999999999
+				},
+				{
+					"mode" : "W+ -> u,s~",
+					"value" : 0.01699517
+				},
+				{
+					"mode" : "W+ -> c,s~",
+					"value" : 0.31627060000000001
+				}
+			],
+			"width [GeV]" : 2.0023782878223049
+		}
+	},
+	"direct_detection" : 
+	{
+		"excluded_by" : "None",
+		"exclusion_level" : 0
+	},
+	"indirect_detection" : 
+	{
+		"Channels" : 
+		[
+			{
+				"inState" : 
+				[
+					5000521,
+					-5000521
+				],
+				"outState" : 
+				[
+					11,
+					-11
+				],
+				"process" : "~xd ~xdb -> e- e+",
+				"weight" : 0.33222635821637814
+			},
+			{
+				"inState" : 
+				[
+					5000521,
+					-5000521
+				],
+				"outState" : 
+				[
+					13,
+					-13
+				],
+				"process" : "~xd ~xdb -> mu- mu+",
+				"weight" : 0.33222635821622287
+			},
+			{
+				"inState" : 
+				[
+					5000521,
+					-5000521
+				],
+				"outState" : 
+				[
+					15,
+					-15
+				],
+				"process" : "~xd ~xdb -> ta- ta+",
+				"weight" : 0.33222634579240706
+			},
+			{
+				"inState" : 
+				[
+					5000521,
+					-5000521
+				],
+				"outState" : 
+				[
+					5000001,
+					5000001
+				],
+				"process" : "~xd ~xdb -> Y1 Y1",
+				"weight" : 0.0033209377749918779
+			}
+		],
+		"antiproton_flux" : 
+		{
+			"E [GeV]" : 50.0,
+			"unit" : "[cm^2 s GeV]^{-1}",
+			"value" : 0.0
+		},
+		"photon_flux" : 
+		{
+			"E [GeV]" : 50.0,
+			"unit" : "[cm^2 s GeV]^{-1}",
+			"value" : 3.1593541554484496e-13
+		},
+		"positron_flux" : 
+		{
+			"E [GeV]" : 50.0,
+			"unit" : "[cm^2 s GeV]^{-1}",
+			"value" : 4.2677805545078269e-10
+		},
+		"sigmaV [cm^3/s]" : 2.1848579258180797e-26
+	},
+	"relic_density" : 
+	{
+		"Channels" : 
+		[
+			{
+				"inState" : 
+				[
+					5000521,
+					-5000521
+				],
+				"outState" : 
+				[
+					11,
+					-11
+				],
+				"process" : "~xd ~xdb -> e- e+",
+				"weight" : 0.33137727402997258
+			},
+			{
+				"inState" : 
+				[
+					5000521,
+					-5000521
+				],
+				"outState" : 
+				[
+					13,
+					-13
+				],
+				"process" : "~xd ~xdb -> mu- mu+",
+				"weight" : 0.33137727402988476
+			},
+			{
+				"inState" : 
+				[
+					5000521,
+					-5000521
+				],
+				"outState" : 
+				[
+					15,
+					-15
+				],
+				"process" : "~xd ~xdb -> ta- ta+",
+				"weight" : 0.33137726700497017
+			},
+			{
+				"inState" : 
+				[
+					5000521,
+					-5000521
+				],
+				"outState" : 
+				[
+					5000001,
+					5000001
+				],
+				"process" : "~xd ~xdb -> Y1 Y1",
+				"weight" : 0.0058681849351725508
+			}
+		],
+		"Omega" : 0.12362095856359449,
+		"Xf" : 24.288667126298314
+	}
+}
